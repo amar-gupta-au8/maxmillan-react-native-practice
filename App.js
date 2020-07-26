@@ -1,6 +1,8 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
-import
+import {StyleSheet, Dimensions, View} from 'react-native';
+
+const {width} = Dimensions.get('screen');
+const SIZE = width * 0.9;
 
 const App = () => {
   return (
